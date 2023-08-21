@@ -1,15 +1,10 @@
-import logo from './logo.svg';
+
 import './App.css';
 import {
-  CreateBrowserRouter,
-  Routes,
   Route,
   createRoutesFromElements,
   RouterProvider,
-  Link,
-  NavLink,
   createBrowserRouter,
-  Outlet
 } from 'react-router-dom';
 import Home from './pages/Home';
 import About from './pages/About';
