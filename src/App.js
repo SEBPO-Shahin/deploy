@@ -15,7 +15,7 @@ import Contact from './pages/help/Contact';
 
 const router = createBrowserRouter(
   createRoutesFromElements(
-    <Route path="/" element={<RootLayout />}>
+    <Route index element={<RootLayout />}>
       <Route path='/' element={<Home />} />
       <Route path='about' element={<About />} />
       <Route path="help" element={<HelpLayout />}>
