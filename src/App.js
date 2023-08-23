@@ -11,7 +11,7 @@ function App() {
       <BrowserRouter>
         <header>
           <nav>
-            <NavLink to="/">Home</NavLink>
+            <NavLink index to="/">Home</NavLink>
             <NavLink to="/about">About</NavLink>
             <NavLink to="/contact">Contact</NavLink>
           </nav>
@@ -22,9 +22,6 @@ function App() {
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </BrowserRouter>
-      <main>
-        <Home />
-      </main>
     </div>
   );
 }
