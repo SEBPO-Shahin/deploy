@@ -17,11 +17,14 @@ function App() {
           </nav>
         </header>
         <Routes>
-          <Route index element={<Home />} />
+          <Route index exact element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </BrowserRouter>
+      <main>
+        <Home />
+      </main>
     </div>
   );
 }
